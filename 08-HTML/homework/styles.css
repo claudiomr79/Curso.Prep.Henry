@@ -1,5 +1,24 @@
+body{
+    background-image: url("arena.jpg");
+}
 h1{
-    color:coral;
+    text-align: center;
+    color:rgb(231, 33, 15);
+}
+.padre{
+        /*IMPORTANTE*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hijo{
+    background:transparent;
+    width: 500px;
+}
+.divClass{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 img{
     width: 400px;
